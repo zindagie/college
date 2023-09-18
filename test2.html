@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_bar{
+background: #fff;
+border-bottom: 1px solid #797979;
+height: 51px;
+left: 0;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 100;
+}
+.cmp_tamp{
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: fixed;
+    top: -800px;
+    -webkit-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+    width: 100%;
+    z-index: 12;
+}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="main-bar">
+            <lo role="tablist" class="cmp-tamp" aria aria-multiselectable="false"></lo>
+        </div>
+    </div>
+</body>
+</html>
